@@ -4,10 +4,10 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'kave_rest_api/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "kave_rest_api"
+  spec.name          = "kave_rest_api_modern"
   spec.version       = KaveRestApi::VERSION
-  spec.authors       = ["mohammad mahmoudi"]
-  spec.email         = ["mm580486@gmail.com"]
+  spec.authors       = ["emad ghaffarian"]
+  spec.email         = ["emg.programer@gmail.com"]
 
   spec.summary       = %q{Ruby gem to send and receive SMS via kavenegar API(rest) }
   spec.description   = %q{Ruby gem to send and receive SMS via kavenegar API(rest)}

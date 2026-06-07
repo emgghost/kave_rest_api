@@ -1,4 +1,5 @@
-%w(faraday faraday_middleware validatable i18n).each do |dependency|
+# coding: utf-8
+%w(faraday validatable i18n).each do |dependency|
     require dependency
 end
 
@@ -33,7 +34,3 @@ end
 %w(version core helper request meaning respond).each do |identify|
     require "kave_rest_api/#{identify}"
 end
-
-
-
-
